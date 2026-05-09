@@ -25,7 +25,7 @@
             padding: 40px;
             position: absolute;
             right: 200px;
-            top: 30px;
+            top: 100px;
             margin-left: -1000;
         
         }
@@ -38,7 +38,15 @@
         .sixth{
             display:grid;
           grid-template-rows: repeat(3,1fr);
+          display: flex;
+          flex-direction: row;
+           justify-content:flex-end;
+           justify-content:space-between;
+          list-style-type: none;
             gap: 20px;
+              background-color: rgb(176, 176, 189);
+
+            
         }
         .six{
                 border:2px solid ;
@@ -46,9 +54,24 @@
                 border-radius: 12px;
               
                 margin: auto;
+                  
                 
             }
-      
+            .ul{
+              list-style:disc;
+              padding-left: 20px;
+            }
+            .body{
+              background-image:url(kpp\ image\ resume.png);
+              background-attachment: fixed;
+            }
+      .header,section,footer{
+        background:rgba(0,0,0,0.6);
+    color:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+      }
     </style>
 </head>
 <body>
@@ -68,7 +91,7 @@
     <h1>
         I'm Krishnendu P P
     </h1>
-    <h5>B.Tech CSD Student|UI/UX &Web Developer</h5>
+    <h5>B.Tech CSD Student|</h5>
    <img src="kpp image resume.png" alt="" style="width: 250px;height: 300px;">
   </section><br><br>
   <section id="About Me">
@@ -93,13 +116,13 @@
    </section>
    <section id="Skills" >
     <h2><strong>Skills</strong> </h2>
-<div=sixth>
+<div class="sixth">
     <div class="six">
           <strong>Technical Skills </strong><br><br>
           <br>HTML5 <br>
           <br>Java Script<br>
           <br>Python<br>
-          <br>Git&GitHub <br>
+          <br>React JS<br>
           
     </div>    
         <div class="six">
@@ -119,18 +142,33 @@
           
     </div>    
 
-</div>
+</div >
    
 
    </section>
   <section id="Projects">
     <h2><strong>Projects</strong> </h2>
-    
+   <div>
+
+  
+   <ul>
+    <li>
+    <p>Complaint-Management-System </p>
+    <a href="https://github.com/krishnendu-pp/Complaint-Management-System-CMS-" target="_blank">
+    Live Website
+    </a>
+    </li></ul>
+     </div>
 
   </section> 
-   
+<footer id="foot">
+   <section id="Contacts">
+ <h2><strong>Contacts</strong> </h2>
+ <h4>email: <a href="ppkrishnendu113@gmail.com">ppkrishnendu113@gmail.com</a></h4>
 
+   </section>
 
+</footer>
 
   
 
